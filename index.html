@@ -1,94 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlackGold</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlackGold</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+section {
+    padding: 80px 40px;
+    border-bottom: 1px solid #222;
+}
+
+h1, h2 {
+    color: #d4a017;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    border: 2px solid #d4a017;
+    color: #d4a017;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.token-box {
+    background: #111;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #222;
+    word-break: break-all;
+}
+
+.copy-button {
+    padding: 12px 20px;
+    border: none;
+    background: #d4a017;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+</style>
 </head>
 <body>
 
-    <header class="hero">
-        <div class="container">
-            <h1>BlackGold</h1>
-            <div class="gold-line"></div>
-            <p>Built for Value in Uncertain Markets</p>
+<section class="hero">
+    <h1>BlackGold</h1>
+    <p>Built for Value in Uncertain Markets</p>
 
-            <div class="buttons">
-                <a href="#">Telegram</a>
-                <a href="https://discord.gg/XpY6ffnUdn" target="_blank">Discord</a>
-                <a href="#">X</a>
-            </div>
-        </div>
-    </header>
+    <div class="buttons">
+        <a href="#">Telegram</a>
+        <a href="#">Discord</a>
+        <a href="#">X</a>
+    </div>
+</section>
 
-    <section class="section-card">
-        <div class="container">
-            <h2>About BlackGold</h2>
-            <p>
-                BlackGold is being built as a long-term digital asset centered around trust,
-                disciplined development, and future access-to-intelligence utility.
-                The objective is not short-term hype, but durable long-term structure.
-            </p>
-        </div>
-    </section>
+<section>
+    <h2>About BlackGold</h2>
+    <p>BlackGold is being built as a long-term digital asset centered around trust, disciplined development, and future access-to-intelligence utility. The objective is not short-term hype, but durable long-term structure.</p>
+</section>
 
-    <section class="section-card">
-        <div class="container">
-            <h2>Identity</h2>
-            <p>
-                BlackGold is built around trust, structure, and long-term utility.
-                Foundation comes before expansion. Credibility comes before noise.
-            </p>
-        </div>
-    </section>
+<section>
+    <h2>Identity</h2>
+    <p>BlackGold is built around trust, structure, and long-term utility. Foundation comes before expansion. Credibility comes before noise.</p>
+</section>
 
-    <section class="section-card">
-        <div class="container">
-            <h2>Why BlackGold Exists</h2>
-            <p>
-                Markets reward attention temporarily. Trust lasts longer.
-                BlackGold is focused on durable value, intelligent direction,
-                and disciplined long-term development.
-            </p>
-        </div>
-    </section>
+<section>
+    <h2>Why BlackGold Exists</h2>
+    <p>Markets reward attention temporarily. Trust lasts longer. BlackGold is focused on durable value, intelligent direction, and disciplined long-term development.</p>
+</section>
 
-    <section class="section-card">
-        <div class="container">
-            <h2>Future Utility</h2>
-            <p>
-                BlackGold is evolving toward token-gated intelligence,
-                structured market insight, and long-term informational access.
-            </p>
-        </div>
-    </section>
+<section>
+    <h2>Future Utility</h2>
+    <p>BlackGold is evolving toward token-gated intelligence, structured market insight, and long-term informational access.</p>
+</section>
 
-    <section class="section-card">
-        <div class="container">
-            <h2>Token Information</h2>
+<section>
+    <h2>Token Information</h2>
 
-            <div class="info-box">
-                <p>Total Supply: 1B</p>
-            </div>
+    <div class="token-box">
+        <strong>Total Supply:</strong> 1,000,000,000 BLKGD
+    </div>
 
-            <div class="info-box">
-                <p>Dev Wallet: 1.48%</p>
-            </div>
+    <div class="token-box">
+        <strong>Founder Holdings:</strong> 1.48%
+    </div>
 
-            <div class="info-box">
-                <p>Contract Address: YOUR_CONTRACT_HERE</p>
-            </div>
+    <div class="token-box">
+        <strong>Contract Address:</strong><br>
+        HxqwMgt446fyDv2B2kPo6wbgVwvYJSH8LabYoGHGpump
+    </div>
 
-            <div class="info-box">
-                <button>Copy Contract</button>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>BlackGold © 2026</p>
-    </footer>
+    <button class="copy-button" onclick="navigator.clipboard.writeText('HxqwMgt446fyDv2B2kPo6wbgVwvYJSH8LabYoGHGpump')">
+        Copy Contract
+    </button>
+</section>
 
 </body>
 </html>
