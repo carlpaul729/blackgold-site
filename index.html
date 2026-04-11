@@ -1,176 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BlackGold</title>
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackGold</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #050505;
+      color: #f5f5f5;
+      text-align: center;
+    }
 
-section {
-    padding: 42px 40px;
-    border-bottom: 1px solid #222;
-}
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-h1, h2 {
-    color: #d4a017;
-}
+    .hero img {
+      width: 220px;
+      border-radius: 18px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 30px rgba(212,175,55,0.15);
+    }
 
-.hero {
-    text-align: center;
-    padding: 70px 20px 40px 20px;
-}
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #d4af37;
+    }
 
-.hero h1 {
-    font-size: 84px;
-    letter-spacing: 1px;
-    margin-bottom: 18px;
-}
+    .subtitle {
+      font-size: 1.2rem;
+      color: #cccccc;
+      max-width: 750px;
+      margin: auto;
+      line-height: 1.7;
+    }
 
-.hero p {
-    font-size: 30px;
-    margin-bottom: 12px;
-}
+    .section {
+      margin-top: 70px;
+      background: #0d0d0d;
+      padding: 35px;
+      border-radius: 18px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.03);
+    }
 
-.hero small {
-    display: block;
-    color: #888;
-    font-size: 15px;
-    margin-bottom: 28px;
-    letter-spacing: 1px;
-}
+    .section h2 {
+      color: #d4af37;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
 
-.buttons a {
-    display: inline-block;
-    margin: 10px;
-    padding: 14px 34px;
-    border: 2px solid #d4a017;
-    border-radius: 4px;
-    color: #d4a017;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
+    .section p {
+      color: #cccccc;
+      line-height: 1.8;
+      font-size: 1.05rem;
+      max-width: 850px;
+      margin: auto;
+    }
 
-.buttons a:hover {
-    background-color: #d4a017;
-    color: black;
-}
+    .roadmap-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
 
-.token-box {
-    background: #111;
-    padding: 25px;
-    margin-bottom: 20px;
-    border: 1px solid #222;
-    word-break: break-word;
-    font-size: 20px;
-    line-height: 1.5;
-}
+    .roadmap-card {
+      background: #111;
+      padding: 25px;
+      border-radius: 15px;
+      border: 1px solid rgba(212,175,55,0.15);
+    }
 
-.copy-button {
-    padding: 12px 22px;
-    border: none;
-    background: #d4a017;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 4px;
-}
+    .roadmap-card h3 {
+      color: #d4af37;
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+    }
 
-.copy-button:hover {
-    opacity: 0.9;
-}
+    .roadmap-card p {
+      font-size: 0.95rem;
+      color: #bbbbbb;
+      line-height: 1.6;
+    }
 
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #666;
-    font-size: 14px;
-    border-top: 1px solid #222;
-}
-</style>
+    .links {
+      margin-top: 35px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #d4af37;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 70px;
+      padding: 25px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+  </style>
 </head>
 <body>
 
-<section class="hero">
+<div class="container">
+
+  <div class="hero">
+    <img src="blackgold-logo.png" alt="BlackGold Logo">
     <h1>BlackGold</h1>
-    <p>Built for Long-Term Value in Uncertain Markets</p>
-    <small>Structured Development • Long-Term Utility • Trust First</small>
+    <p class="subtitle">
+      Built around trust, structure, and long-term utility.  
+      BlackGold is being developed with a focus on disciplined growth, useful direction, and lasting digital purpose.
+    </p>
+  </div>
 
-    <div class="buttons">
-        <a href="https://t.me/BLKGDcommunity" target="_blank">Telegram</a>
-        <a href="https://discord.gg/XpY6ffnUdn" target="_blank">Discord</a>
-        <a href="https://x.com/blackgoldblkgd" target="_blank">X</a>
-    </div>
-</section>
-
-<section>
-    <h2>About BlackGold</h2>
-    <p>BlackGold is being built as a long-term digital asset centered around trust, disciplined development, and future access-to-intelligence utility. The objective is durable long-term structure rather than short-term attention.</p>
-</section>
-
-<section>
+  <div class="section">
     <h2>Identity</h2>
-    <p>BlackGold is built around trust, structure, and long-term utility. Foundation comes before expansion. Credibility comes before noise.</p>
-</section>
+    <p>
+      BlackGold is being built to evolve into an access-to-intelligence utility project focused on structured research, useful information, trust, and long-term utility rather than hype.
+    </p>
+  </div>
 
-<section>
-    <h2>Why BlackGold Exists</h2>
-    <p>Markets reward attention temporarily. Trust lasts longer. BlackGold focuses on durable value, intelligent direction, and disciplined long-term development.</p>
-</section>
-
-<section>
-    <h2>Future Utility</h2>
-    <p>BlackGold is evolving toward token-gated intelligence, structured market insight, and long-term informational access.</p>
-</section>
-
-<section>
-    <h2>Strategic Direction</h2>
-    <p>BlackGold is being developed through disciplined growth, controlled expansion, and utility built around structured access to intelligence.</p>
-</section>
-
-<section>
+  <div class="section">
     <h2>Roadmap</h2>
-    <p>Phase 1 — Foundation and Community Structure</p>
-    <p>Phase 2 — Platform Refinement and Utility Layers</p>
-    <p>Phase 3 — Access to Structured Intelligence / Research</p>
-    <p>Phase 4 — Expansion of Utility and Ecosystem</p>
-</section>
 
-<section>
+    <div class="roadmap-grid">
+      <div class="roadmap-card">
+        <h3>Phase 1</h3>
+        <p>Foundation and Community Structure</p>
+      </div>
+
+      <div class="roadmap-card">
+        <h3>Phase 2</h3>
+        <p>Platform Refinement and Utility Layers</p>
+      </div>
+
+      <div class="roadmap-card">
+        <h3>Phase 3</h3>
+        <p>Access to Structured Intelligence / Research</p>
+      </div>
+
+      <div class="roadmap-card">
+        <h3>Phase 4</h3>
+        <p>Expansion of Utility and Ecosystem</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
     <h2>Litepaper</h2>
-    <p>BlackGold is being developed around long-term utility, disciplined infrastructure, and structured access to useful intelligence rather than short-term hype cycles.</p>
-</section>
+    <p>
+      BlackGold’s long-term direction centers on creating useful digital utility built around access, disciplined research, trust, and structured intelligence designed to serve lasting value over time.
+    </p>
+  </div>
 
-<section>
-    <h2>Token Information</h2>
+  <div class="section">
+    <h2>Official Access</h2>
 
-    <div class="token-box">
-        <strong>Total Supply:</strong> 1,000,000,000 BLKGD
+    <div class="links">
+      <a href="https://x.com/blackgoldblkgd?s=21" target="_blank">X</a>
+      <a href="https://t.me/BLKGDcommunity" target="_blank">Telegram</a>
+      <a href="https://discord.gg/BeMkcWFBS" target="_blank">Discord</a>
     </div>
+  </div>
 
-    <div class="token-box">
-        <strong>Founder Holdings:</strong> 1.48%
-    </div>
+  <footer>
+    BlackGold • Long-Term Utility • Structured Development
+  </footer>
 
-    <div class="token-box">
-        <strong>Contract Address:</strong><br>
-        HxqwMgt446fyDv2B2kPo6wbgVwvYJSH8LabYoGHGpump
-    </div>
-
-    <button class="copy-button" onclick="navigator.clipboard.writeText('HxqwMgt446fyDv2B2kPo6wbgVwvYJSH8LabYoGHGpump')">
-        Copy Contract
-    </button>
-</section>
-
-<footer>
-BlackGold © 2026 | Long-Term Digital Asset Development
-</footer>
+</div>
 
 </body>
 </html>
