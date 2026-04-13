@@ -15,146 +15,178 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
-    padding: 80px 20px;
+    padding: 60px 20px;
 }
 
-.symbol {
+.hero-symbol {
     width: 140px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 54px;
     color: #d4af37;
-    margin-bottom: 20px;
+    font-size: 64px;
+    margin-bottom: 30px;
 }
 
-h2 {
-    font-size: 34px;
-    color: #d4af37;
-    margin-top: 90px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 24px;
+.hero-text {
+    font-size: 26px;
     line-height: 1.8;
-    max-width: 900px;
+    max-width: 950px;
     margin: auto;
 }
 
-.section {
-    margin-top: 100px;
+.subline {
+    margin-top: 70px;
+    font-size: 22px;
+    color: #f5f5f5;
 }
 
-.roadmap {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 25px;
+section {
+    margin-top: 120px;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+
+.section-text {
+    font-size: 24px;
+    line-height: 1.8;
+    max-width: 950px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .card {
     border: 1px solid rgba(212,175,55,0.2);
-    border-radius: 18px;
-    padding: 30px;
+    border-radius: 20px;
+    padding: 35px;
+    width: 260px;
     background: rgba(255,255,255,0.02);
 }
 
 .card h3 {
     color: #d4af37;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 24px;
+    line-height: 1.8;
 }
 
 .links a {
+    display: inline-block;
+    margin: 15px;
     color: #d4af37;
     text-decoration: none;
-    margin: 0 20px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
-footer {
-    margin-top: 120px;
-    font-size: 22px;
-    color: #cccccc;
-    padding-bottom: 60px;
+.footer {
+    margin-top: 140px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 1.8;
 }
 </style>
 </head>
+
 <body>
 
 <div class="container">
 
-    <img src="blackgold.png" alt="BlackGold Symbol" class="symbol">
+<img src="blackgold-symbol.png" alt="BlackGold Symbol" class="hero-symbol">
 
-    <h1>BlackGold</h1>
+<h1>BlackGold</h1>
 
-    <p>
-        BlackGold is a long-term digital asset built around intelligence, utility, and structured digital trust.
-    </p>
+<div class="hero-text">
+BlackGold is a long-term digital asset built around intelligence, utility, and structured digital trust.
+</div>
 
-    <div class="section">
-        <p>
-            Designed carefully. Built for long-term value in uncertain markets.
-        </p>
-    </div>
+<div class="subline">
+Designed carefully. Built for long-term value in uncertain markets.
+</div>
 
-    <div class="section">
-        <h2>Why BlackGold Exists</h2>
-        <p>
-            BlackGold exists to create a digital asset that values structure over noise, trust over hype, and long-term utility over short-cycle speculation.
-        </p>
-    </div>
+<section>
+<h2>Why BlackGold Exists</h2>
+<div class="section-text">
+BlackGold exists to create a digital asset that values structure over noise, trust over hype, and long-term utility over short-cycle speculation.
+</div>
+</section>
 
-    <div class="section">
-        <h2>Utility Direction</h2>
-        <p>
-            Access to intelligence, structured research layers, future gated digital tools, and an evolving utility ecosystem.
-        </p>
-    </div>
+<section>
+<h2>Utility Direction</h2>
+<div class="cards">
 
-    <div class="section">
-        <h2>Roadmap</h2>
-        <div class="roadmap">
-            <div class="card">
-                <h3>Phase 1</h3>
-                <p>Foundation</p>
-            </div>
-            <div class="card">
-                <h3>Phase 2</h3>
-                <p>Identity and ecosystem alignment</p>
-            </div>
-            <div class="card">
-                <h3>Phase 3</h3>
-                <p>Utility expansion</p>
-            </div>
-            <div class="card">
-                <h3>Phase 4</h3>
-                <p>Long-term infrastructure</p>
-            </div>
-        </div>
-    </div>
+<div class="card">
+<h3>Access</h3>
+<p>Access to intelligence designed to evolve carefully over time.</p>
+</div>
 
-    <div class="section">
-        <h2>Token Structure</h2>
-        <p>
-            Transparent foundation. Controlled development. Long-term reserve discipline.
-        </p>
-    </div>
+<div class="card">
+<h3>Research</h3>
+<p>Structured research layers built around useful digital direction.</p>
+</div>
 
-    <div class="section">
-        <h2>Community Access</h2>
-        <div class="links">
-            <a href="#">Telegram</a>
-            <a href="#">Discord</a>
-        </div>
-    </div>
+<div class="card">
+<h3>Tools</h3>
+<p>Future gated digital tools aligned with long-term utility.</p>
+</div>
 
-    <footer>
-        BlackGold is being built deliberately — with clarity, patience, and long-term direction.
-    </footer>
+</div>
+</section>
+
+<section>
+<h2>Roadmap</h2>
+<div class="roadmap">
+<div>Phase 1 — Foundation</div>
+<div>Phase 2 — Identity and ecosystem alignment</div>
+<div>Phase 3 — Utility expansion</div>
+<div>Phase 4 — Long-term infrastructure</div>
+</div>
+</section>
+
+<section>
+<h2>Token Structure</h2>
+<div class="section-text">
+Transparent foundation. Controlled development. Long-term reserve discipline.
+</div>
+</section>
+
+<section>
+<h2>Community Access</h2>
+<div class="links">
+<a href="#">Telegram</a>
+<a href="#">Discord</a>
+</div>
+</section>
+
+<div class="footer">
+BlackGold is being built deliberately — with clarity, patience, and long-term direction.
+</div>
 
 </div>
 
