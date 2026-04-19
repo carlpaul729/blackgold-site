@@ -55,7 +55,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 85px;
+  gap: 88px;
   margin-top: 45px;
 }
 
@@ -72,19 +72,19 @@ p {
 
 /* X */
 .icons a:nth-child(1) img {
-  width: 58px;
+  width: 64px;
   height: auto;
 }
 
 /* Telegram */
 .icons a:nth-child(2) img {
-  width: 64px;
+  width: 70px;
   height: auto;
 }
 
 /* Discord */
 .icons a:nth-child(3) img {
-  width: 64px;
+  width: 70px;
   height: auto;
 }
 
