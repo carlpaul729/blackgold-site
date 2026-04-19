@@ -1,200 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BlackGold Intelligence</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackGold</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #050505;
-    color: white;
-    text-align: center;
-}
+    body {
+      margin: 0;
+      background: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
 
-.container {
-    max-width: 950px;
-    margin: auto;
-    padding: 60px 20px;
-}
+    section {
+      padding: 100px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
 
-.hero-symbol {
-    width: 180px;
-    margin-bottom: 25px;
-}
+    .logo {
+      width: 70px;
+      margin-bottom: 20px;
+    }
 
-h1 {
-    color: #d4af37;
-    font-size: 68px;
-    margin-bottom: 25px;
-}
+    h1, h2 {
+      color: #d4a63a;
+      margin-bottom: 20px;
+    }
 
-h2 {
-    color: #d4af37;
-    font-size: 36px;
-    margin-bottom: 35px;
-}
+    h1 {
+      font-size: 64px;
+    }
 
-.hero-primary {
-    font-size: 28px;
-    line-height: 1.7;
-    max-width: 850px;
-    margin: auto;
-}
+    h2 {
+      font-size: 44px;
+    }
 
-.hero-secondary {
-    font-size: 22px;
-    margin-top: 35px;
-    line-height: 1.7;
-    color: #f0f0f0;
-}
+    p {
+      font-size: 28px;
+      line-height: 1.6;
+      margin: 12px 0;
+    }
 
-.button-main {
-    display: inline-block;
-    margin-top: 45px;
-    padding: 14px 34px;
-    border: 1px solid #d4af37;
-    color: #d4af37;
-    text-decoration: none;
-    font-size: 20px;
-}
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 35px;
+    }
 
-section {
-    margin-top: 120px;
-}
+    .button {
+      border: 1px solid #d4a63a;
+      color: #d4a63a;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-size: 20px;
+      display: inline-block;
+    }
 
-.blocks {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
 
-.block {
-    width: 240px;
-}
+    .card {
+      width: 280px;
+    }
 
-.block h3 {
-    color: #d4af37;
-    font-size: 26px;
-    margin-bottom: 18px;
-}
+    .card h3 {
+      color: #d4a63a;
+      font-size: 30px;
+    }
 
-.block p {
-    font-size: 21px;
-    line-height: 1.7;
-}
+    .card p {
+      font-size: 22px;
+    }
 
-.links a {
-    display: inline-block;
-    margin: 15px;
-    color: #d4af37;
-    text-decoration: none;
-    font-size: 24px;
-}
+    footer {
+      padding: 60px 20px;
+      font-size: 22px;
+    }
 
-.section-text {
-    font-size: 24px;
-    line-height: 1.8;
-    max-width: 850px;
-    margin: auto;
-}
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 42px;
+      }
 
-.footer {
-    margin-top: 140px;
-    margin-bottom: 80px;
-    font-size: 22px;
-    line-height: 2;
-}
+      h2 {
+        font-size: 32px;
+      }
 
-.footer a {
-    color: #d4af37;
-    text-decoration: none;
-    margin: 0 15px;
-}
-</style>
+      p {
+        font-size: 20px;
+      }
+
+      .card h3 {
+        font-size: 24px;
+      }
+
+      .card p {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="container">
-
-<img src="blackgold-symbol.png" alt="BlackGold Symbol" class="hero-symbol">
-
-<h1>BlackGold Intelligence</h1>
-
-<div class="hero-primary">
-Structured digital asset intelligence built for disciplined market participants.
-</div>
-
-<div class="hero-secondary">
-A utility-first digital asset framework designed around clarity, structure, and long-term intelligence.
-</div>
-
-<a href="https://blackgoldintel.com" class="button-main">Enter BlackGold</a>
-
 <section>
-<h2>Why BlackGold</h2>
+  <img src="blackgold-symbol.png" alt="BlackGold Logo" class="logo">
+  <h1>BlackGold</h1>
+  <p>Built carefully for long-term digital utility.</p>
+  <p>Structured access to intelligence and disciplined research.</p>
 
-<div class="blocks">
+  <div class="button-row">
+    <a href="#why-blackgold" class="button">Enter BlackGold</a>
+    <a href="https://x.com/blackgoldblkgd" class="button">X</a>
+    <a href="https://t.me" class="button">Telegram</a>
+    <a href="https://discord.com" class="button">Discord</a>
+  </div>
+</section>
 
-<div class="block">
-<h3>Signal Clarity</h3>
-<p>Structured interpretation over noise.</p>
-</div>
-
-<div class="block">
-<h3>Market Structure</h3>
-<p>Built around disciplined decision frameworks.</p>
-</div>
-
-<div class="block">
-<h3>Intelligence Access</h3>
-<p>Designed for evolving utility and insight delivery.</p>
-</div>
-
-</div>
+<section id="why-blackgold">
+  <h2>Why BlackGold</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Structured foundation</h3>
+      <p>Built carefully before expansion.</p>
+    </div>
+    <div class="card">
+      <h3>Disciplined direction</h3>
+      <p>Quiet progress before noise.</p>
+    </div>
+    <div class="card">
+      <h3>Long-term utility</h3>
+      <p>Designed to evolve deliberately.</p>
+    </div>
+  </div>
 </section>
 
 <section>
-<h2>Ecosystem</h2>
-
-<div class="links">
-<a href="https://blackgoldintel.com" target="_blank">Website</a>
-<a href="https://t.me/BLKGDcommunity" target="_blank">Telegram</a>
-<a href="https://discord.gg/BeMkcWFBS" target="_blank">Discord</a>
-<a href="#">X</a>
-</div>
+  <h2>Token Role</h2>
+  <p>BLACKGOLD supports future access and utility.</p>
 </section>
 
 <section>
-<h2>Token Role</h2>
-
-<div class="section-text">
-BLACKGOLD serves as the utility layer supporting future intelligence access and ecosystem participation.
-</div>
+  <h2>Future Direction</h2>
+  <p>Expanding carefully, one layer at a time.</p>
 </section>
 
-<section>
-<h2>Future Direction</h2>
-
-<div class="section-text">
-Expanding intelligence infrastructure step by step.
-<br><br>
-Built carefully, aligned for long-term utility.
-</div>
-</section>
-
-<div class="footer">
-blackgoldintel.com<br><br>
-<a href="https://t.me/BLKGDcommunity">Telegram</a>
-<a href="https://discord.gg/BeMkcWFBS">Discord</a>
-<a href="#">X</a>
-</div>
-
-</div>
+<footer>
+  blackgoldintel.com<br><br>
+  Telegram · Discord · X
+</footer>
 
 </body>
 </html>
