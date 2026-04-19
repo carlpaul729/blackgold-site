@@ -102,6 +102,7 @@ p {
 }
 
 #why {
+  scroll-margin-top: 60px;
   padding: 140px 20px 120px;
 }
 
