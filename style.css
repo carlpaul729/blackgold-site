@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 180px;
+  width: 210px;
   margin-bottom: 25px;
 }
 
@@ -47,13 +47,14 @@ p {
 
 .platform-btn {
   border: none;
-  width: auto;
-  height: auto;
+  background: none;
+  padding: 0;
 }
 
 .platform-btn img {
   width: 65px;
   height: 65px;
+  border: none;
 }
 
 section {
