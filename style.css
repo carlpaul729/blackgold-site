@@ -1,85 +1,85 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #d4af37;
-    line-height: 1.7;
-}
-
-.container {
-    width: 85%;
-    margin: auto;
-    max-width: 1000px;
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .hero {
-    text-align: center;
-    padding: 140px 20px;
-    background: linear-gradient(to bottom, #000000, #111111);
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
-.hero h1 {
-    font-size: 72px;
-    margin-bottom: 10px;
-    color: #d4af37;
-    letter-spacing: 2px;
+.logo {
+  width: 140px;
+  margin-bottom: 30px;
 }
 
-.gold-line {
-    width: 120px;
-    height: 2px;
-    background-color: #d4af37;
-    margin: 20px auto;
-}
-
-.hero p {
-    font-size: 24px;
-    color: white;
-    margin-bottom: 40px;
-}
-
-.buttons a {
-    display: inline-block;
-    margin: 10px;
-    padding: 14px 28px;
-    border: 1px solid #d4af37;
-    color: #d4af37;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: 0.3s;
-}
-
-.buttons a:hover {
-    background-color: #d4af37;
-    color: black;
-}
-
-.section-card {
-    padding: 90px 20px;
-    border-top: 1px solid #222;
-}
-
-h2 {
-    font-size: 38px;
-    margin-bottom: 20px;
-    color: #d4af37;
+h1 {
+  font-size: 72px;
+  color: #d4af37;
+  margin-bottom: 30px;
 }
 
 p {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  margin: 20px 0;
 }
 
-.info-box {
-    border: 1px solid #222;
-    padding: 20px;
-    margin-top: 20px;
-    background-color: #111111;
+.enter-btn {
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  padding: 18px 50px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.platform-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.platform-btn {
+  width: 160px;
+  height: 120px;
+  border: 2px solid #d4af37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.platform-btn img {
+  width: 70px;
+  height: 70px;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 48px;
+  color: #d4af37;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cards div {
+  max-width: 300px;
 }
 
 footer {
-    text-align: center;
-    padding: 50px;
-    border-top: 1px solid #222;
-    color: #777;
+  padding: 50px;
+  color: white;
 }
