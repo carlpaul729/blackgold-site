@@ -65,10 +65,9 @@ p {
 }
 
 .social-links img {
-  max-width: 40px;
-  max-height: 40px;
-  width: auto;
-  height: auto;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
   display: block;
 }
 
