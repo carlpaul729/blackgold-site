@@ -1,88 +1,64 @@
 body {
   margin: 0;
-  background: black;
+  padding: 0;
+  background-color: #000000;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.hero {
-  padding-top: 20px;
-  padding-bottom: 80px;
+.container {
+  padding-top: 60px;
 }
 
 .logo {
-  width: 320px;
-  display: block;
-  margin: 0 auto 30px auto;
+  width: 90px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 100px;
-  color: #d4af37;
-  margin: 0 0 25px 0;
+  color: #d4a017;
+  font-size: 72px;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 26px;
-  margin: 14px 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
-.enter-btn {
+.enter-button {
   display: inline-block;
   margin-top: 40px;
-  padding: 20px 70px;
-  border: 2px solid #d4af37;
-  color: #d4af37;
+  padding: 25px 140px;
+  border: 2px solid #d4a017;
+  color: #d4a017;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 28px;
 }
 
-.icons {
-  margin-top: 45px;
+.social-links {
   display: flex;
   justify-content: center;
-  gap: 65px;
-}
-
-.icons a {
-  text-decoration: none;
-  border: none;
-}
-
-.icons img {
-  width: 85px;
-  height: 85px;
-  border: none;
-  box-shadow: none;
-  background: transparent;
-}
-
-#why {
-  padding-top: 130px;
-}
-
-h2 {
-  font-size: 64px;
-  color: #d4af37;
-  margin-bottom: 60px;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 90px;
-  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-.cards div {
-  max-width: 300px;
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  text-decoration: none;
 }
 
-.cards h3 {
-  font-size: 30px;
-}
-
-.cards p {
-  font-size: 22px;
+.social-links img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  border: none;
+  background: transparent;
 }
