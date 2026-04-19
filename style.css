@@ -56,19 +56,31 @@ p {
 }
 
 .social-links a {
-  width: 40px;
-  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .social-links img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
   display: block;
+}
+
+/* X */
+.social-links a:nth-child(1) img {
+  width: 26px;
+  height: auto;
+}
+
+/* Telegram */
+.social-links a:nth-child(2) img {
+  width: 34px;
+  height: auto;
+}
+
+/* Discord */
+.social-links a:nth-child(3) img {
+  width: 34px;
+  height: auto;
 }
 
 .section {
