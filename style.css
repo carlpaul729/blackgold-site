@@ -36,27 +36,12 @@ p {
   line-height: 1.5;
 }
 
-.enter-btn {
-  display: inline-block;
-  margin-top: 42px;
-  padding: 18px 72px;
-  font-size: 24px;
-  color: #d4a017;
-  border: 2px solid #d4a017;
-  text-decoration: none;
-  background: transparent;
-}
-
-.enter-btn:hover {
-  background: rgba(212,160,23,0.08);
-}
-
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 88px;
-  margin-top: 45px;
+  margin-top: 38px;
 }
 
 .icons a {
@@ -90,7 +75,7 @@ p {
 
 .contract {
   display: inline-block;
-  margin-top: 35px;
+  margin-top: 28px;
   font-size: 16px;
   color: #d4a017;
   text-decoration: none;
@@ -99,6 +84,21 @@ p {
 
 .contract:hover {
   opacity: 0.8;
+}
+
+.enter-btn {
+  display: inline-block;
+  margin-top: 34px;
+  padding: 18px 72px;
+  font-size: 24px;
+  color: #d4a017;
+  border: 2px solid #d4a017;
+  text-decoration: none;
+  background: transparent;
+}
+
+.enter-btn:hover {
+  background: rgba(212,160,23,0.08);
 }
 
 #why {
