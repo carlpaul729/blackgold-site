@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 35px 20px 25px;
+  padding: 35px 20px 15px;
 }
 
 .logo {
@@ -88,8 +88,8 @@ p {
 
 .enter-btn {
   display: inline-block;
-  margin-top: 24px;
-  padding: 18px 72px;
+  margin-top: 18px;
+  padding: 16px 72px;
   font-size: 24px;
   color: #d4a017;
   border: 2px solid #d4a017;
