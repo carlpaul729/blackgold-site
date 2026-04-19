@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 210px;
+  width: 240px;
   margin-bottom: 25px;
 }
 
@@ -42,19 +42,12 @@ p {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
-.platform-btn {
-  border: none;
-  background: none;
-  padding: 0;
-}
-
-.platform-btn img {
+.icon {
   width: 65px;
   height: 65px;
-  border: none;
 }
 
 section {
@@ -71,13 +64,4 @@ h2 {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-}
-
-.cards div {
-  max-width: 300px;
-}
-
-footer {
-  padding: 50px;
-  color: white;
 }
