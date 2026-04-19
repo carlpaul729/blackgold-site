@@ -1,37 +1,39 @@
 body {
   margin: 0;
-  background: black;
+  padding: 0;
+  background-color: black;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 .hero {
-  padding-top: 30px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 .logo {
-  width: 180px;
-  margin-bottom: 20px;
+  width: 260px !important;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
 h1 {
-  font-size: 92px;
+  font-size: 90px;
   color: #d4af37;
-  margin-bottom: 25px;
+  margin: 20px 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   margin: 12px 0;
 }
 
 .enter-btn {
   display: inline-block;
   margin-top: 35px;
-  margin-bottom: 45px;
-  padding: 18px 55px;
+  margin-bottom: 35px;
+  padding: 18px 60px;
   border: 2px solid #d4af37;
   color: #d4af37;
   text-decoration: none;
@@ -41,32 +43,39 @@ p {
 .platform-row {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  align-items: center;
+  gap: 55px;
   margin-top: 10px;
 }
 
+.platform-row a {
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
 .icon {
-  width: 55px;
-  height: 55px;
-  border: none;
-  background: none;
+  width: 70px !important;
+  height: 70px !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
 }
 
 #why-blackgold {
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 h2 {
   font-size: 60px;
   color: #d4af37;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .cards {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 70px;
   flex-wrap: wrap;
 }
 
@@ -75,10 +84,9 @@ h2 {
 }
 
 .card h3 {
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 28px;
 }
 
 .card p {
-  font-size: 22px;
+  font-size: 20px;
 }
