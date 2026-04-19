@@ -17,9 +17,10 @@ body {
 }
 
 .logo {
-  width: 95px;
+  width: 120px;
   height: auto;
   margin-bottom: 35px;
+  display: block;
 }
 
 h1 {
@@ -54,7 +55,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 65px;
+  gap: 70px;
   margin-top: 42px;
 }
 
@@ -71,19 +72,19 @@ p {
 
 /* X */
 .icons a:nth-child(1) img {
-  width: 30px;
+  width: 38px;
   height: auto;
 }
 
 /* Telegram */
 .icons a:nth-child(2) img {
-  width: 36px;
+  width: 44px;
   height: auto;
 }
 
 /* Discord */
 .icons a:nth-child(3) img {
-  width: 36px;
+  width: 44px;
   height: auto;
 }
 
