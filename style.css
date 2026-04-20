@@ -44,7 +44,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 125px;
-  margin-top: 38px;
+  margin-top: 22px;
   margin-bottom: 18px;
 }
 
@@ -60,8 +60,8 @@ h1 {
 .contract:active,
 .contract:focus {
   display: inline-block;
-  margin-top: 8px;
-  margin-bottom: 12px;
+  margin-top: 2px;
+  margin-bottom: 10px;
   color: #d89b1d !important;
   text-decoration: none !important;
   font-size: 18px;
