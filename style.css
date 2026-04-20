@@ -116,3 +116,66 @@ h1 {
   font-size: 18px;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 180px;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-size: 72px;
+    line-height: 1;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  .icons {
+    gap: 70px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .icons a img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .contract,
+  .contract:visited,
+  .contract:hover,
+  .contract:active,
+  .contract:focus {
+    font-size: 14px;
+    margin-bottom: 20px;
+    word-break: break-all;
+    padding: 0 20px;
+  }
+
+  .enter-btn {
+    padding: 16px 70px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #why h2 {
+    font-size: 48px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .cards h3 {
+    font-size: 24px;
+  }
+
+  .cards p {
+    font-size: 16px;
+  }
+}
