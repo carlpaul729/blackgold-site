@@ -44,7 +44,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 125px;
-  margin-top: 22px;
+  margin-top: 16px;
   margin-bottom: 18px;
 }
 
@@ -61,7 +61,7 @@ h1 {
 .contract:focus {
   display: inline-block;
   margin-top: -8px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   color: #d89b1d !important;
   text-decoration: none !important;
   font-size: 18px;
@@ -75,7 +75,7 @@ h1 {
   color: #d89b1d;
   text-decoration: none;
   font-size: 22px;
-  margin-top: 8px;
+  margin-top: 2px;
 }
 
 #why-anchor {
