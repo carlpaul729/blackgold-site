@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
   height: auto;
   display: block;
   margin: 0 auto 24px auto;
@@ -43,14 +43,14 @@ h1 {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 110px;
+  gap: 125px;
   margin-top: 55px;
   margin-bottom: 38px;
 }
 
 .icons img {
-  width: 62px;
-  height: 62px;
+  width: 78px;
+  height: 78px;
   object-fit: contain;
 }
 
