@@ -202,13 +202,13 @@ h1 {
   }
 
   .contract {
-    margin-top: -12px;
+    margin-top: -20px;
     margin-bottom: 4px;
     font-size: 16px;
   }
 
   .enter-btn {
-    margin-top: 0px;
+    margin-top: -6px;
     padding: 14px 90px;
     font-size: 20px;
   }
