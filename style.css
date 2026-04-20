@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px 80px 20px;
+  padding: 40px 20px 40px 20px;
   box-sizing: border-box;
 }
 
@@ -61,7 +61,7 @@ h1 {
 .contract:focus {
   display: inline-block;
   margin-top: 8px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   color: #d89b1d !important;
   text-decoration: none !important;
   font-size: 18px;
@@ -75,7 +75,7 @@ h1 {
   color: #d89b1d;
   text-decoration: none;
   font-size: 22px;
-  margin-top: 32px;
+  margin-top: 18px;
 }
 
 #why-anchor {
