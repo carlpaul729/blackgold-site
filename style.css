@@ -101,8 +101,11 @@ p {
   background: rgba(212,160,23,0.08);
 }
 
+#why-anchor {
+  height: 40px;
+}
+
 #why {
-  scroll-margin-top: 60px;
   padding: 140px 20px 120px;
 }
 
