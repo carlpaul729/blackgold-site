@@ -24,7 +24,7 @@ body {
   width: 325px;
   height: auto;
   display: block;
-  margin: 0 auto 12px auto;
+  margin: 0 auto 8px auto;
 }
 
 h1 {
@@ -45,36 +45,26 @@ h1 {
   justify-content: center;
   gap: 125px;
   margin-top: 55px;
-  margin-bottom: 38px;
+  margin-bottom: 18px;
 }
 
-.icons img {
+.icons a img {
   width: 78px;
   height: 78px;
   object-fit: contain;
 }
 
-.ca-link {
+.ca-link,
+.ca-link:visited,
+.ca-link:hover,
+.ca-link:active {
   display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 42px;
+  margin-top: -8px;
+  margin-bottom: 18px;
   color: #d89b1d !important;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 18px;
   font-weight: bold;
-}
-
-.ca-link:hover {
-  color: #d89b1d !important;
-  text-decoration: underline;
-}
-
-.ca-link:visited {
-  color: #d89b1d !important;
-}
-
-.ca-link:active {
-  color: #d89b1d !important;
 }
 
 .enter-btn {
@@ -84,7 +74,7 @@ h1 {
   color: #d89b1d;
   text-decoration: none;
   font-size: 22px;
-  margin-top: 0;
+  margin-top: 32px;
 }
 
 #why-anchor {
