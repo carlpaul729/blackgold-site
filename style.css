@@ -1,152 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
   background: black;
   color: white;
-  font-family: Arial, sans-serif;
   text-align: center;
 }
 
 .hero {
   min-height: 100vh;
-  padding: 28px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  padding: 40px 20px 80px 20px;
+  box-sizing: border-box;
 }
 
 .logo {
-  width: 325px;
-  max-width: 42vw;
+  width: 260px;
   height: auto;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 8px auto;
 }
 
 h1 {
-  color: #d4a017;
-  font-size: clamp(72px, 11vw, 150px);
-  margin: 0 0 18px 0;
+  font-size: 118px;
+  color: #d89b1d;
+  margin: 0 0 30px 0;
   font-weight: bold;
-  line-height: 1;
 }
 
 .hero p {
-  font-size: clamp(18px, 2vw, 28px);
-  margin: 10px 0;
-  line-height: 1.35;
+  font-size: 18px;
+  margin: 8px 0;
+  line-height: 1.6;
 }
 
 .icons {
   display: flex;
-  gap: 140px;
-  margin-top: 22px;
-  margin-bottom: 8px;
-  align-items: center;
   justify-content: center;
+  gap: 125px;
+  margin-top: 42px;
+  margin-bottom: 18px;
 }
 
-.icons img {
-  width: 26px;
-  height: 26px;
+.icons a img {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
 }
 
-.contract {
-  color: #d4a017;
-  text-decoration: none;
-  font-size: clamp(16px, 1.5vw, 24px);
-  margin-top: 12px;
-  margin-bottom: 2px;
-  display: block;
-  word-break: break-all;
+.contract,
+.contract:visited,
+.contract:hover,
+.contract:active,
+.contract:focus {
+  display: inline-block;
+  margin-top: -8px;
+  margin-bottom: 18px;
+  color: #d89b1d !important;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .enter-btn {
   display: inline-block;
-  margin-top: 4px;
-  padding: 18px 120px;
-  border: 2px solid #d4a017;
-  color: #d4a017;
+  padding: 18px 100px;
+  border: 2px solid #d89b1d;
+  color: #d89b1d;
   text-decoration: none;
-  font-size: clamp(20px, 2vw, 34px);
+  font-size: 22px;
+  margin-top: 32px;
 }
 
 #why-anchor {
-  height: 1px;
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
 }
 
 #why {
   min-height: 100vh;
-  padding: 100px 20px;
-  background: black;
+  padding: 120px 40px 80px 40px;
+  box-sizing: border-box;
 }
 
 #why h2 {
-  color: #d4a017;
-  font-size: 48px;
-  margin-bottom: 50px;
+  font-size: 64px;
+  margin-bottom: 100px;
 }
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
+  flex-wrap: wrap;
 }
 
 .cards div {
-  border: 1px solid #d4a017;
-  padding: 30px;
-  width: 280px;
+  max-width: 280px;
 }
 
 .cards h3 {
-  color: #d4a017;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cards p {
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-  .hero {
-    padding: 40px 20px 20px 20px;
-  }
-
   .logo {
-    width: 140px;
-    max-width: none;
-    margin-bottom: 16px;
+    width: 180px;
+    margin-bottom: 12px;
   }
 
   h1 {
-    font-size: 82px;
-    margin-bottom: 28px;
+    font-size: 72px;
+    line-height: 1;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
-    margin: 10px 0;
+    padding: 0 20px;
   }
 
   .icons {
-    gap: 90px;
-    margin-top: 34px;
-    margin-bottom: 18px;
+    gap: 70px;
+    margin-top: 40px;
+    margin-bottom: 12px;
   }
 
-  .icons img {
-    width: 24px;
-    height: 24px;
+  .icons a img {
+    width: 64px;
+    height: 64px;
   }
 
-  .contract {
-    font-size: 18px;
-    margin-top: 14px;
-    margin-bottom: 18px;
-    padding: 0 12px;
+  .contract,
+  .contract:visited,
+  .contract:hover,
+  .contract:active,
+  .contract:focus {
+    font-size: 14px;
+    margin-bottom: 20px;
+    word-break: break-all;
+    padding: 0 20px;
   }
 
   .enter-btn {
-    font-size: 22px;
-    padding: 22px 58px;
-    margin-top: 6px;
+    padding: 16px 70px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #why h2 {
+    font-size: 48px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .cards h3 {
+    font-size: 24px;
+  }
+
+  .cards p {
+    font-size: 16px;
   }
 }
