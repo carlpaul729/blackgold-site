@@ -1,9 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  padding: 0;
-  background: #000;
-  color: white;
   font-family: Arial, sans-serif;
+  background: black;
+  color: white;
   text-align: center;
 }
 
@@ -12,113 +15,90 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 35px 20px 15px;
+  padding: 40px 20px 80px 20px;
+  box-sizing: border-box;
 }
 
 .logo {
-  width: 120px;
+  width: 72px;
   height: auto;
-  margin-bottom: 25px;
   display: block;
+  margin: 0 auto 22px auto;
 }
 
 h1 {
-  font-size: 88px;
-  color: #d4a017;
-  margin: 0 0 20px 0;
-  font-weight: 700;
+  font-size: 96px;
+  color: #d89b1d;
+  margin: 0 0 30px 0;
+  font-weight: bold;
 }
 
-p {
-  font-size: 20px;
-  margin: 6px 0;
-  line-height: 1.4;
+.hero p {
+  font-size: 18px;
+  margin: 8px 0;
+  line-height: 1.6;
 }
 
 .icons {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 88px;
-  margin-top: 28px;
-}
-
-.icons a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
+  gap: 70px;
+  margin-top: 55px;
+  margin-bottom: 40px;
 }
 
 .icons img {
-  display: block;
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
 }
 
-/* X */
-.icons a:nth-child(1) img {
-  width: 64px;
-  height: auto;
-}
-
-/* Telegram */
-.icons a:nth-child(2) img {
-  width: 70px;
-  height: auto;
-}
-
-/* Discord */
-.icons a:nth-child(3) img {
-  width: 70px;
-  height: auto;
-}
-
-.contract {
+.ca-link {
   display: inline-block;
-  margin-top: 20px;
-  font-size: 16px;
-  color: #d4a017;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  color: #d89b1d;
   text-decoration: none;
-  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.contract:hover {
-  opacity: 0.8;
+.ca-link:hover {
+  text-decoration: underline;
 }
 
 .enter-btn {
   display: inline-block;
-  margin-top: 18px;
-  padding: 16px 72px;
-  font-size: 24px;
-  color: #d4a017;
-  border: 2px solid #d4a017;
+  margin-top: 0;
+  padding: 18px 90px;
+  border: 2px solid #d89b1d;
+  color: #d89b1d;
   text-decoration: none;
-  background: transparent;
-}
-
-.enter-btn:hover {
-  background: rgba(212,160,23,0.08);
+  font-size: 22px;
 }
 
 #why-anchor {
-  height: 40px;
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
 }
 
 #why {
-  padding: 140px 20px 120px;
+  min-height: 100vh;
+  padding: 120px 40px 80px 40px;
+  box-sizing: border-box;
 }
 
 #why h2 {
-  font-size: 48px;
-  color: white;
-  margin-bottom: 70px;
+  font-size: 64px;
+  margin-bottom: 100px;
 }
 
 .cards {
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
@@ -127,12 +107,11 @@ p {
 }
 
 .cards h3 {
-  font-size: 30px;
-  margin-bottom: 18px;
-  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
 .cards p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.6;
 }
