@@ -44,7 +44,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 125px;
-  margin-top: 4px;
+  margin-top: -4px;
   margin-bottom: 18px;
 }
 
