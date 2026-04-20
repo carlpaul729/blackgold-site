@@ -44,7 +44,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 125px;
-  margin-top: -4px;
+  margin-top: -18px;
   margin-bottom: 18px;
 }
 
@@ -60,7 +60,7 @@ h1 {
 .contract:active,
 .contract:focus {
   display: inline-block;
-  margin-top: -8px;
+  margin-top: -16px;
   margin-bottom: 4px;
   color: #d89b1d !important;
   text-decoration: none !important;
@@ -177,5 +177,39 @@ h1 {
 
   .cards p {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 88px;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+
+  .icons {
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .contract {
+    margin-top: -12px;
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+
+  .enter-btn {
+    margin-top: 0px;
+    padding: 14px 90px;
+    font-size: 20px;
   }
 }
