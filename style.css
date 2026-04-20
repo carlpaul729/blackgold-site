@@ -36,7 +36,7 @@ h1 {
 
 .hero p {
   font-size: 18px;
-  margin: 5px 0;
+  margin: 8px 0;
   line-height: 1.6;
 }
 
@@ -44,7 +44,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 125px;
-  margin-top: 28px;
+  margin-top: 38px;
   margin-bottom: 18px;
 }
 
@@ -60,7 +60,7 @@ h1 {
 .contract:active,
 .contract:focus {
   display: inline-block;
-  margin-top: -2px;
+  margin-top: 8px;
   margin-bottom: 18px;
   color: #d89b1d !important;
   text-decoration: none !important;
