@@ -54,15 +54,10 @@ h1 {
   object-fit: contain;
 }
 
-.ca-link,
-.ca-link:visited,
-.ca-link:hover,
-.ca-link:active {
+.ca-link {
   display: inline-block;
   margin-top: -8px;
   margin-bottom: 18px;
-  color: #d89b1d !important;
-  text-decoration: none !important;
   font-size: 18px;
   font-weight: bold;
 }
@@ -114,4 +109,13 @@ h1 {
 .cards p {
   font-size: 18px;
   line-height: 1.6;
+}
+
+a.ca-link,
+a.ca-link:visited,
+a.ca-link:hover,
+a.ca-link:active,
+a.ca-link:focus {
+  color: #d89b1d !important;
+  text-decoration: none !important;
 }
