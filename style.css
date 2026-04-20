@@ -21,10 +21,10 @@ body {
 }
 
 .logo {
-  width: 72px;
+  width: 82px;
   height: auto;
   display: block;
-  margin: 0 auto 22px auto;
+  margin: 0 auto 24px auto;
 }
 
 h1 {
@@ -43,33 +43,38 @@ h1 {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 95px;
   margin-top: 55px;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 
 .icons img {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
 }
 
 .ca-link {
   display: inline-block;
   margin-top: 8px;
-  margin-bottom: 32px;
-  color: #d89b1d;
+  margin-bottom: 38px;
+  color: #d89b1d !important;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
 }
 
 .ca-link:hover {
+  color: #d89b1d !important;
   text-decoration: underline;
 }
 
 .ca-link:visited {
-  color: #d89b1d;
+  color: #d89b1d !important;
+}
+
+.ca-link:active {
+  color: #d89b1d !important;
 }
 
 .enter-btn {
