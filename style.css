@@ -14,9 +14,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 40px 20px 40px 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   box-sizing: border-box;
 }
 
@@ -118,6 +119,12 @@ h1 {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .logo {
     width: 180px;
     margin-bottom: 12px;
